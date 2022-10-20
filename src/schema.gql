@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Hello World Query"""
+  HelloWorld: String!
+
+  """Get random number"""
+  RandomNumber: Float!
+  randomFromZeroTo(to: Int!): Int!
+}
